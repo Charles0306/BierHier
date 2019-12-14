@@ -1,0 +1,192 @@
+.FooterFoot {
+    display: inline-block;
+}
+
+img.HeadH {
+    width:50px;
+    margin-top:15px;
+    margin-left:0px;
+}
+
+.HeaderHead {
+    display: inline-block;
+}
+
+footer {
+    margin: -10px;
+    background-color:rgb(166, 166, 166);
+    height:auto;
+    color:white;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
+header {
+    margin: -8px;
+    background-color:rgb(45, 91, 185);
+    height:80px;
+}
+
+button {
+    background-color:dimgray;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 5px;
+    width: 120px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color:rgb(35, 71, 144);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px;
+    width: 120px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+}
+button:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 2px;
+    right: -3px;
+    transition: 0.1s;
+    color: white;
+    font-size: 1.75em;
+}
+
+button:hover:after {
+    opacity: 1;
+    right: 20px;
+}
+
+#wrapper {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+#HeaderFadeIn, #FooterFadeIn {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+body {
+    font-family: Arial;
+    line-height:24px;
+}
+
+nav {
+    margin-bottom:20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#wrapper, footer {
+    width: available;
+    padding:20px;
+}
+
+.Scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.Scrollbar1 {
+    -ms-overflow-style: none;
+}
+
+form ul {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+form input {
+    position: absolute;
+    left: 200px;
+    width: 160px;
+    outline: none;
+}
+
+.input {
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    position: absolute;
+    left: 200px;
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+iframe {
+    margin-left: 50px;
+}
+
+article {
+    float: right;
+    margin-right: 960px;
+}
