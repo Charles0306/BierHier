@@ -1,18 +1,15 @@
 body {
     font-family: Arial, sans-serif;
 }
-
-div.Sport {
-    padding: 30px;
+div.Basketball {
+    padding: 105px;
+}
+div {
+    padding: 36px;
 }
 
-div.Visuals {
-    padding: 75px;
-    display: inline-block;
-}
-
-div #Voetbal {
-   padding: 20px;
+article.Tekst {
+    float: right;
 }
 
 
@@ -27,6 +24,11 @@ footer {
     font-family: Arial, serif;
 }
 
+header {
+    background-color:rgb(45, 91, 185);
+    height:80px;
+    margin: -10px;
+}
 .button1 {
     background-color:rgb(35, 71, 144);
     border: none;
@@ -57,11 +59,6 @@ iframe {
     margin-left: 50px;
 }
 
-article {
-    float: right;
-    margin-right: 550px;
-    font-family: Arial, serif;
-}
 
 form ul {
     list-style-type: none;
@@ -77,4 +74,3 @@ form input {
     border: none;
     cursor: pointer;
 }
-
