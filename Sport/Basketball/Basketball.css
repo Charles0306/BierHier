@@ -12,7 +12,10 @@ article.Tekst {
     float: right;
 }
 
-
+.results {
+    float: right;
+    padding-right: 220px;
+}
 
 
 

@@ -1,23 +1,37 @@
 body {
+    opacity: 1;
+    transition: 1s opacity;
     font-family: Arial, sans-serif;
 }
 
-div.Sport {
-    padding: 30px;
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
-div.Visuals {
-    padding: 75px;
+
+
+.Sport {
+    margin: 20px;
+}
+
+.plaatjes {
     display: inline-block;
 }
 
-div #Voetbal {
-   padding: 20px;
+.SportFoto {
+    width: auto;
+    height: auto;
+    margin:20px;
 }
 
+img.SportFoto {
+    width:310px;
+}
 
-
-
+.HoriLiner {
+    float:left;
+}
 
 
 footer {
@@ -25,6 +39,7 @@ footer {
     color: white;
     padding: 20px;
     font-family: Arial, serif;
+
 }
 
 .button1 {
@@ -78,3 +93,8 @@ form input {
     cursor: pointer;
 }
 
+header {
+    margin:-10px;
+    background-color:rgb(45, 91, 185);
+    height: 80px;
+}
