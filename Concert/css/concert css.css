@@ -1,0 +1,143 @@
+header {
+    background-color:rgb(45, 91, 185);
+    height:80px;
+    margin: -10px;
+}
+.button1 {
+    background-color:rgb(35, 71, 144);
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 20px;
+    width: 120px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    cursor: pointer;
+    display: inline-block;
+}
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: Arial;
+}
+.img {
+    margin-bottom: 100px;
+    margin-left: 250px;
+
+}
+
+h1 {
+    text-align: right;
+    margin-right: 250px;
+}
+.aside {
+    font-family: Arial;
+    text-align: right;
+    float: right;
+    margin-right: 250px;
+}
+footer a {
+    color:white;
+    font-family: Arial;
+}
+
+footer {
+    background-color: rgb(166,166,166);
+    color: white;
+
+    padding: 20px;
+    margin: -10px;
+    font-family: Arial;
+    clear: both;
+}
+.two {
+    text-align: right;
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.three {
+    text-align: right;
+    float: right;
+    margin-right: 250px;
+    margin-top: 40px;
+}
+.four {
+    text-align: right;
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+article {
+    display:inline-block;
+    width:30%;
+    padding-right:15px;
+    vertical-align:top;
+}
+
+article:last-child {
+    padding-right:0;
+}
+.PageImg1 {
+    float: left;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.PageImg2 {
+    float: left;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.meer {
+    width: 10%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.concertTekst {
+    margin-top: 50px;
+}
+.kopje{
+    text-align: left;
+}
+.concertTekst2 {
+    margin-top: 97px;
+}
+.EnMeer1 {
+    text-align: right;
+    float: right;
+    margin-right: 100px;
+    margin-top: 35px;
+}
+.EnMeer3 {
+    text-align: right;
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+.EnMeer2 {
+    text-align: right;
+    float: right;
+    margin-right: 100px;
+    margin-top: 65px;
+}
+.EnMeer2V1 {
+    text-align: right;
+    float: right;
+    margin-right: 100px;
+    margin-top: 35px;
+}
+.EnMeer {
+    width: 10%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 280px;
+}
+.EnMeer3V1 {
+    text-align: right;
+    float: right;
+    margin-right: 250px;
+    margin-top: 65px;
+}
