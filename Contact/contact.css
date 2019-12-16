@@ -5,7 +5,7 @@
 img.HeadH {
     width:50px;
     margin-top:15px;
-    margin-left:0px;
+    margin-left:0;
 }
 
 .HeaderHead {
@@ -15,7 +15,6 @@ img.HeadH {
 footer {
     margin: -10px;
     background-color:rgb(166, 166, 166);
-    height:auto;
     color:white;
 }
 
@@ -27,6 +26,7 @@ footer a {
 header {
     margin: -8px;
     background-color:rgb(45, 91, 185);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
     height:80px;
 }
 
@@ -127,7 +127,7 @@ button:hover:after {
     }
 }
 body {
-    font-family: Arial;
+    font-family: Arial, serif;
     line-height:24px;
 }
 
