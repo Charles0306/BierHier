@@ -1,3 +1,4 @@
+
 .img {
     margin-bottom: 100px;
     margin-left: 250px;
@@ -137,7 +138,6 @@ header {
     background-color:rgb(45, 91, 185);
     height:80px;
     clear: both;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 button {
@@ -256,12 +256,4 @@ nav a {
 #wrapper, footer {
     width:auto;
     padding:20px;
-}
-
-.Scrollbar::-webkit-scrollbar {
-    display: none;
-}
-
-.Scrollbar1 {
-    -ms-overflow-style: none;
 }
