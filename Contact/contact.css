@@ -187,6 +187,15 @@ iframe {
 }
 
 article {
+    margin-right: 225px;
     float: right;
-    margin-right: 960px;
+    display: inline-block;
+}
+
+.imgabout {
+    margin-top: 50px;
+    float: left;
+    width: 20%;
+    margin-right: 50px;
+    display: inline-block;
 }
